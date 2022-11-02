@@ -1,0 +1,196 @@
+
+
+
+.divUno {
+    border: 2px blue solid;
+    background-color: white;
+}
+.divDos {
+    border: 2px blue solid;
+    background-color: white;
+}
+.formSeis {
+    background-color: white;
+}
+
+.headerUno {
+    background-color: white;
+    width: 1328px}
+
+.headerDos {
+    background-color: white;
+    width: 1328px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    
+}
+
+.headerTres {
+    background-color: white;
+    width: 1328px;
+}
+ .headerCuatro {
+    background-color: white;
+    width: 1328px;
+ }
+.headerCinco {
+    background-color: white;
+    width: 1328px;
+
+}
+
+.tituloUno { 
+    background-color: rgb(2, 2, 128);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.tituloDos {
+    background-color: rgb(2, 2, 128);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+
+}
+.tituloTres {
+    background-color: rgb(2, 2, 128);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.tituloCuatro {
+    background-color: rgb(2, 2, 128);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.tituloCinco {
+    background-color: rgb(2, 2, 128);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 140px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.divTres {
+   background-color: white; 
+}
+
+.tituloTdos {
+    background-color: white;
+}
+
+.parrafoTres {
+    background-color: white;
+}
+
+
+
+.mainTres {
+    background-color: white;
+}
+
+.formContacto {
+
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+
+    border: 2px rgb(2, 2, 128) dashed;
+}
+
+.divCuatro {
+    background-color: white;
+}
+
+.bodyUno {
+    background-image: url(https://camiloibrahimissa.com/wp-content/uploads/2020/06/Fondo-de-Valores-Inmobiliaria-construye-el-futuro-en-el-presente-destacada.jpg);
+}
+
+.bodyDos {
+    background-image: url(https://camiloibrahimissa.com/wp-content/uploads/2020/06/Fondo-de-Valores-Inmobiliaria-construye-el-futuro-en-el-presente-destacada.jpg);
+}
+
+.bodyTres {
+    background-image: url(https://camiloibrahimissa.com/wp-content/uploads/2020/06/Fondo-de-Valores-Inmobiliaria-construye-el-futuro-en-el-presente-destacada.jpg);
+}
+
+.bodyCuatro {
+    background-image: url(https://camiloibrahimissa.com/wp-content/uploads/2020/06/Fondo-de-Valores-Inmobiliaria-construye-el-futuro-en-el-presente-destacada.jpg);
+}
+
+.bodyCinco {
+    background-image: url(https://camiloibrahimissa.com/wp-content/uploads/2020/06/Fondo-de-Valores-Inmobiliaria-construye-el-futuro-en-el-presente-destacada.jpg);
+}
+
+.casauno {
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
