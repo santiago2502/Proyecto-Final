@@ -1,0 +1,86 @@
+@import "variables" , "mixin";
+
+.headerU {
+    text-align: left;
+  }
+  
+  .divUno {
+    border: 2px $color-principal solid;
+    background-color: white;
+    width: 50%;
+  }
+  
+  .divDos {
+    border: 2px $color-principal solid;
+    background-color: white;
+  }
+  
+  .formSeis {
+    background-color: white;
+  }
+  
+  .headerUno {
+    background-color: white;
+    width: 1328px;
+  }
+  
+  .headerDos {
+    background-color: white;
+    width: 1328px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  }
+  
+  .headerTres, .headerCuatro, .headerCinco {
+    background-color: white;
+    width: 1328px;
+  }
+  
+  .tituloUno {
+    background-color: $color-principal;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .tituloDos, .tituloTres, .tituloCuatro, .tituloCinco {
+    background-color: $color-principal;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+  }
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 140px;
+  }
+  
+  li {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  .divTres, .tituloTdos, .parrafoTres, .mainTres {
+    background-color: white;
+  }
+  
+  .formContacto {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px rgb(2, 2, 128) dashed;
+  }
+  
+  .divCuatro {
+    background-color: white;
+  }
+  
+  .bodyUno, .bodyDos, .bodyTres, .bodyCuatro, .bodyCinco {
+    background-image: url(https://camiloibrahimissa.com/wp-content/uploads/2020/06/Fondo-de-Valores-Inmobiliaria-construye-el-futuro-en-el-presente-destacada.jpg);
+  }
+  
+  .casauno {
+    width: 500px;
+    height: 500px;
+  }

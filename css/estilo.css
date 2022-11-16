@@ -1,13 +1,15 @@
-
-
-
+.headerU {
+    text-align: left;
+}
 .divUno {
     border: 2px blue solid;
     background-color: white;
+    width: 50%;
 }
 .divDos {
     border: 2px blue solid;
     background-color: white;
+    
 }
 .formSeis {
     background-color: white;
@@ -19,7 +21,7 @@
 
 .headerDos {
     background-color: white;
-    width: 1328px;
+    width: 1328px; 
     text-decoration: none;
     text-transform: uppercase;
     color: black;
@@ -45,8 +47,8 @@
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-align: center;
+    }
     
-}
 .tituloDos {
     background-color: rgb(2, 2, 128);
     color: rgb(255, 255, 255);

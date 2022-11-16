@@ -1,0 +1,14 @@
+@mixin footer {
+    border: 2px $color-principal solid;
+    background-color: white;
+    width: 50%;
+
+}
+
+.divDos {
+    @include footer;
+}
+
+.divUno {
+    @include footer;
+}
