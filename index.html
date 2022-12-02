@@ -1,470 +1,479 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hernandez Propiedades es una de las inmobiliarias que mas destaca de Buenos Aires ya que ofrece su servicio en cualquier zona de esta provincia">
-    <title>Hernandez Propiedades</title>
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<link rel="stylesheet" href="css/estilo.css">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Hernandez Propiedades es una de las inmobiliarias que mas destaca de Buenos Aires ya que ofrece su servicio en cualquier zona de esta provincia">
+  <title>Hernandez Propiedades</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body class="bodyUno">
-    
+
+<body class="bodyUno" background="/img/Inversiones-fondo-inmobiliario.gif">
+
   <header class="headerU">
-    
-      <nav class="navbar bg-light fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"> <img src="./img/WhatsAppImage2022-10-03at6.57.47PM.jpeg" alt="Bootstrap" width="32" height="32">Hernandez Propiedades</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hernandez Propiedades</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./pages/emprendimientos.html">Emprendimientos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+
+    <nav class="navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> <img src="./img/WhatsAppImage2022-10-03at6.57.47PM.jpeg"
+            alt="Bootstrap" width="32" height="32">Hernandez Propiedades</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hernandez Propiedades</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/emprendimientos.html">Emprendimientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+            </li>
+            </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-    </header>
-    <br><br><br><br><br><br>
-
-      <h1 class="tituloUno">Busca tu propiedad!</h1>
-    
-
-        <form class="formSeis">
-        <ul>
-            <label for="operacion">Tipo de operacion</label>
-        <select name="tipo de operacion" id="tipo de operacion">
-            <option value="alquiler">Alquiler</option>
-            <option value="venta">Venta</option>
-            <option value="alquiler temporario">Alquiler Temporario</option>
-        </select>
-
-        <label for="Propiedades">Tipo de propiedad</label>
-        <select name="tipo de propiedad" id="tipo de propiedad">
-            <option value="Casa">Casa</option>
-            <option value="Departamento">Departamento</option>
-            <option value="Oficina">Oficina</option>
-            <option value="Cochera">Cochera</option>
-            <option value="Quinta">Quinta</option>
-            <option value="Terreno">Terreno</option>
-        </select>
-        <label for="Localidad"> Localidad</label>
-        <select name="Location" id="localidad">
-            <option value="0" disabled="disabled" selected="">Ingresá zona, localidad o calle</option>
-            
-              <option value="26509" data-subtext="Localidad">Abasto</option>
-              
-              <option value="26390" data-subtext="Localidad">Abril Club De Campo</option>
-              
-              <option value="26354" data-subtext="Localidad">Adrogue</option>
-              
-              <option value="24672" data-subtext="Zona">Agronomia</option>
-              
-              <option value="24673" data-subtext="Zona">Almagro</option>
-              
-              <option value="26353" data-subtext="Zona">Almirante Brown</option>
-              
-              <option value="26392" data-subtext="Localidad">Altos de Hudson II</option>
-              
-              <option value="52098" data-subtext="Localidad">Area 60</option>
-              
-              <option value="26511" data-subtext="Localidad">Arturo Segui</option>
-              
-              <option value="26376" data-subtext="Zona">Avellaneda</option>
-              
-              <option value="26377" data-subtext="Localidad">Avellaneda</option>
-              
-              <option value="26491" data-subtext="Localidad">B.San Jorge</option>
-              
-              <option value="24676" data-subtext="Zona">Balvanera</option>
-              
-              <option value="24677" data-subtext="Zona">Barracas</option>
-              
-              <option value="210536" data-subtext="Localidad">Barrio Costa Esmeralda</option>
-              
-              <option value="52099" data-subtext="Localidad">Barrio Las Golondrinas</option>
-              
-              <option value="24678" data-subtext="Zona">Barrio Norte</option>
-              
-              <option value="26583" data-subtext="Localidad">Barrio Pque.Calchaqui</option>
-              
-              <option value="24682" data-subtext="Zona">Belgrano</option>
-              
-              <option value="24683" data-subtext="Localidad">Belgrano Barrancas</option>
-              
-              <option value="24684" data-subtext="Localidad">Belgrano C</option>
-              
-              <option value="24686" data-subtext="Localidad">Belgrano R</option>
-              
-              <option value="26388" data-subtext="Zona">Berazategui</option>
-              
-              <option value="26402" data-subtext="Localidad">Berazategui</option>
-              
-              <option value="51443" data-subtext="Localidad">Bernal</option>
-              
-              <option value="26573" data-subtext="Localidad">Bernal Este</option>
-              
-              <option value="26574" data-subtext="Localidad">Bernal Oeste</option>
-              
-              <option value="24688" data-subtext="Zona">Boca</option>
-              
-              <option value="24689" data-subtext="Zona">Boedo</option>
-              
-              <option value="26488" data-subtext="Localidad">Bosques</option>
-              
-              <option value="24729" data-subtext="Localidad">Botanico</option>
-              
-              <option value="26357" data-subtext="Localidad">Burzaco</option>
-              
-              <option value="26394" data-subtext="Localidad">C.C. El Pato</option>
-              
-              <option value="24690" data-subtext="Zona">Caballito</option>
-              
-              <option value="24692" data-subtext="Localidad">Caballito Sur</option>
-              
-              <option value="82327" data-subtext="Localidad">Campos de Roca</option>
-              
-              <option value="102535" data-subtext="Localidad">Campos de Roca II</option>
-              
-              <option value="81923" data-subtext="Localidad">Canning</option>
-              
-              <option value="26450" data-subtext="Localidad">Canning (E. Echeverria)</option>
-              
-              <option value="26457" data-subtext="Localidad">Canning (Ezeiza)</option>
-              
-              <option value="51400" data-subtext="Zona">Capital Federal</option>
-              
-              <option value="24763" data-subtext="Localidad">Cardales Village</option>
-              
-              <option value="26458" data-subtext="Localidad">Carlos Spegazzini</option>
-              
-              <option value="24698" data-subtext="Localidad">Catalinas</option>
-              
-              <option value="24697" data-subtext="Zona">Centro (Capital Federal)</option>
-              
-              <option value="26405" data-subtext="Localidad">Centro Agricola El Pato</option>
-              
-              <option value="24705" data-subtext="Zona">Chacarita</option>
-              
-              <option value="27158" data-subtext="Zona">Chascomus</option>
-              
-              <option value="27160" data-subtext="Localidad">Chascomus</option>
-              
-              <option value="26514" data-subtext="Localidad">City Bell</option>
-              
-              <option value="26363" data-subtext="Localidad">Claypole</option>
-              
-              <option value="51439" data-subtext="Localidad">Club Miralagos</option>
-              
-              <option value="24706" data-subtext="Zona">Coghlan</option>
-              
-              <option value="24707" data-subtext="Zona">Colegiales</option>
-              
-              <option value="24708" data-subtext="Zona">Congreso</option>
-              
-              <option value="24709" data-subtext="Zona">Constitución</option>
-              
-              <option value="27216" data-subtext="Zona">Coronel Brandsen</option>
-              
-              <option value="27222" data-subtext="Localidad">Coronel Brandsen</option>
-              
-              <option value="26616" data-subtext="Zona">Costa Azul</option>
-              
-              <option value="26617" data-subtext="Zona">Costa Del Este</option>
-              
-              <option value="27345" data-subtext="Localidad">Costa Esmeralda</option>
-              
-              <option value="26500" data-subtext="Localidad">Countries/B.Cerrado (La Plata)</option>
-              
-              <option value="51444" data-subtext="Localidad">Country Santa Rita</option>
-              
-              <option value="26380" data-subtext="Localidad">Crucesita</option>
-              
-              <option value="26381" data-subtext="Localidad">Dock Sud</option>
-              
-              <option value="26378" data-subtext="Localidad">Dock Sur</option>
-              
-              <option value="26575" data-subtext="Localidad">Don Bosco</option>
-              
-              <option value="26585" data-subtext="Localidad">El Dorado</option>
-              
-              <option value="30470" data-subtext="Localidad">El Hoyo</option>
-              
-              <option value="26576" data-subtext="Localidad">Ezpeleta Este</option>
-              
-              <option value="26577" data-subtext="Localidad">Ezpeleta Oeste</option>
-              
-              <option value="51436" data-subtext="Localidad">Fincas de Hudson</option>
-              
-              <option value="26397" data-subtext="Localidad">Fincas de Iraola II</option>
-              
-              <option value="26487" data-subtext="Zona">Florencio Varela</option>
-              
-              <option value="26490" data-subtext="Localidad">Florencio Varela</option>
-              
-              <option value="24710" data-subtext="Zona">Flores</option>
-              
-              <option value="26492" data-subtext="Localidad">G.Monteverde</option>
-              
-              <option value="26382" data-subtext="Localidad">Gerli</option>
-              
-              <option value="26541" data-subtext="Localidad">Gerli</option>
-              
-              <option value="26493" data-subtext="Localidad">Gobernador Costa</option>
-              
-              <option value="25938" data-subtext="Localidad">Gobernador Udaondo</option>
-              
-              <option value="80457" data-subtext="Localidad">Greenville Polo &amp; Resort</option>
-              
-              <option value="240581" data-subtext="Localidad">Greenville Polo &amp; Resort</option>
-              
-              <option value="26406" data-subtext="Localidad">Guillermo E Hudson</option>
-              
-              <option value="26504" data-subtext="Localidad">Haras Del Sur</option>
-              
-              <option value="102537" data-subtext="Localidad">Haras del Sur II</option>
-              
-              <option value="102538" data-subtext="Localidad">Haras del Sur III</option>
-              
-              <option value="253662" data-subtext="Localidad">Horizontes al sur</option>
-              
-              <option value="26410" data-subtext="Localidad">Hudson</option>
-              
-              <option value="253653" data-subtext="Localidad">Hudson</option>
-              
-              <option value="51437" data-subtext="Localidad">Hudson Chico</option>
-              
-              <option value="26365" data-subtext="Localidad">L.San Javier</option>
-              
-              <option value="102375" data-subtext="Localidad">La candida</option>
-              
-              <option value="210561" data-subtext="Localidad">La Horqueta</option>
-              
-              <option value="26499" data-subtext="Zona">La Plata</option>
-              
-              <option value="26520" data-subtext="Localidad">La Plata</option>
-              
-              <option value="55984" data-subtext="Localidad">La Providencia</option>
-              
-              <option value="26540" data-subtext="Zona">Lanús</option>
-              
-              <option value="26542" data-subtext="Localidad">Lanús</option>
-              
-              <option value="26543" data-subtext="Localidad">Lanús Este</option>
-              
-              <option value="26544" data-subtext="Localidad">Lanús Oeste</option>
-              
-              <option value="24687" data-subtext="Localidad">Las Cañitas</option>
-              
-              <option value="81367" data-subtext="Localidad">Las Golondrinas</option>
-              
-              <option value="26619" data-subtext="Zona">Las Toninas</option>
-              
-              <option value="24718" data-subtext="Zona">Liniers</option>
-              
-              <option value="26530" data-subtext="Localidad">Lisandro Olmos Etcheverry</option>
-              
-              <option value="26555" data-subtext="Localidad">Llavallol</option>
-              
-              <option value="26553" data-subtext="Zona">Lomas De Zamora</option>
-              
-              <option value="26558" data-subtext="Localidad">Lomas De Zamora</option>
-              
-              <option value="253654" data-subtext="Localidad">Magallanes</option>
-              
-              <option value="26622" data-subtext="Zona">Mar De Ajo</option>
-              
-              <option value="27340" data-subtext="Localidad">Mar De Ajo</option>
-              
-              <option value="26624" data-subtext="Zona">Mar Del Plata</option>
-              
-              <option value="27559" data-subtext="Localidad">Mar Del Plata</option>
-              
-              <option value="26717" data-subtext="Zona">Mar Del Tuyu</option>
-              
-              <option value="25529" data-subtext="Localidad">Martinez</option>
-              
-              <option value="24699" data-subtext="Localidad">Microcentro</option>
-              
-              <option value="80508" data-subtext="Localidad">Mirador del lago</option>
-              
-              <option value="24700" data-subtext="Zona">Monserrat</option>
-              
-              <option value="26546" data-subtext="Localidad">Monte Chingolo</option>
-              
-              <option value="25666" data-subtext="Localidad">Nordelta</option>
-              
-              <option value="26722" data-subtext="Zona">Nueva Atlantis</option>
-              
-              <option value="51442" data-subtext="Localidad">Nuevo Quilmes</option>
-              
-              <option value="24721" data-subtext="Zona">Nuñez</option>
-              
-              <option value="26536" data-subtext="Localidad">P.El Pato</option>
-              
-              <option value="26682" data-subtext="Localidad">P.Mogotes</option>
-              
-              <option value="24696" data-subtext="Localidad">P.Rivadavia</option>
-              
-              <option value="24728" data-subtext="Zona">Palermo</option>
-              
-              <option value="24730" data-subtext="Localidad">Palermo Chico</option>
-              
-              <option value="24731" data-subtext="Localidad">Palermo Hollywood</option>
-              
-              <option value="24734" data-subtext="Localidad">Palermo Viejo</option>
-              
-              <option value="24726" data-subtext="Zona">Parque Chacabuco</option>
-              
-              <option value="24727" data-subtext="Zona">Parque Patricios</option>
-              
-              <option value="25127" data-subtext="Zona">Pilar</option>
-              
-              <option value="26383" data-subtext="Localidad">Piñeyro</option>
-              
-              <option value="26409" data-subtext="Localidad">Platanos</option>
-              
-              <option value="26691" data-subtext="Localidad">Plaza Colon</option>
-              
-              <option value="52105" data-subtext="Localidad">Posadas de los Lagos</option>
-              
-              <option value="24701" data-subtext="Zona">Puerto Madero</option>
-              
-              <option value="26569" data-subtext="Zona">Quilmes</option>
-              
-              <option value="26578" data-subtext="Localidad">Quilmes</option>
-              
-              <option value="26579" data-subtext="Localidad">Quilmes Oeste</option>
-              
-              <option value="26373" data-subtext="Localidad">Rafael Calzada</option>
-              
-              <option value="26403" data-subtext="Localidad">Ranelagh</option>
-              
-              <option value="24681" data-subtext="Zona">Recoleta</option>
-              
-              <option value="26548" data-subtext="Localidad">Remedios De Escalada</option>
-              
-              <option value="24702" data-subtext="Zona">Retiro</option>
-              
-              <option value="26587" data-subtext="Localidad">S.F.Solano</option>
-              
-              <option value="24739" data-subtext="Zona">Saavedra</option>
-              
-              <option value="26725" data-subtext="Zona">San Bernardo Del Tuyu</option>
-              
-              <option value="24737" data-subtext="Zona">San Cristobal</option>
-              
-              <option value="25436" data-subtext="Zona">San Fernando</option>
-              
-              <option value="26374" data-subtext="Localidad">San Francisco Solano</option>
-              
-              <option value="26590" data-subtext="Localidad">San Francisco Solano</option>
-              
-              <option value="51455" data-subtext="Zona">San Miguel del Monte</option>
-              
-              <option value="27949" data-subtext="Localidad">San Miguel Del Monte</option>
-              
-              <option value="24703" data-subtext="Zona">San Nicolás</option>
-              
-              <option value="39460" data-subtext="Zona">San Rafael</option>
-              
-              <option value="24738" data-subtext="Zona">San Telmo</option>
-              
-              <option value="254134" data-subtext="Localidad">Santa Clara al Sur</option>
-              
-              <option value="26727" data-subtext="Zona">Santa Clara Del Mar</option>
-              
-              <option value="26728" data-subtext="Zona">Santa Teresita</option>
-              
-              <option value="26385" data-subtext="Localidad">Sarandi</option>
-              
-              <option value="26413" data-subtext="Localidad">Sourigues</option>
-              
-              <option value="26712" data-subtext="Localidad">Stella Maris</option>
-              
-              <option value="26559" data-subtext="Localidad">Temperley</option>
-              
-              <option value="26538" data-subtext="Localidad">Tolosa</option>
-              
-              <option value="30552" data-subtext="Localidad">Trevelin</option>
-              
-              <option value="26550" data-subtext="Localidad">Valentin Alsina</option>
-              
-              <option value="24747" data-subtext="Zona">Villa del Parque</option>
-              
-              <option value="24741" data-subtext="Zona">Villa Devoto</option>
-              
-              <option value="26386" data-subtext="Localidad">Villa Dominico</option>
-              
-              <option value="26539" data-subtext="Localidad">Villa Elisa</option>
-              
-              <option value="51842" data-subtext="Localidad">Villa Elvira</option>
-              
-              <option value="26730" data-subtext="Zona">Villa Gesell</option>
-              
-              <option value="24743" data-subtext="Zona">Villa Gral.Mitre</option>
-              
-              <option value="26591" data-subtext="Localidad">Villa La Florida</option>
-              
-              <option value="24744" data-subtext="Zona">Villa Lugano</option>
-              
-              <option value="24749" data-subtext="Zona">Villa Pueyrredon</option>
-              
-              <option value="25430" data-subtext="Localidad">Villa Rosa</option>
-              
-              <option value="24753" data-subtext="Zona">Villa Urquiza</option>
-              
-              <option value="26497" data-subtext="Localidad">Villa Vatteone</option>
-              
-              <option value="239367" data-subtext="Localidad">Villalobos</option>
-              
-              <option value="26072" data-subtext="Localidad">Virrey Del Pino</option>
-              
-              <option value="26387" data-subtext="Localidad">Wilde</option>
-
-              <input type="button" value="buscar">
-
-          </select>
-        </ul>
-    </form>
-<br><br><br>
+  </header>
+ 
+  <main>
+    <h1 class="tituloUno">Busca tu propiedad!</h1>
+  </main>
 
 
-<section class="sectionUno">
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class= "carousel-inner">
+  <form class="formSeis">
+    <ul>
+      <label for="operacion">Tipo de operacion</label>
+      <select name="tipo de operacion" id="tipo de operacion">
+        <option value="alquiler">Alquiler</option>
+        <option value="venta">Venta</option>
+        <option value="alquiler temporario">Alquiler Temporario</option>
+      </select>
+
+      <label for="Propiedades">Tipo de propiedad</label>
+      <select name="tipo de propiedad" id="tipo de propiedad">
+        <option value="Casa">Casa</option>
+        <option value="Departamento">Departamento</option>
+        <option value="Oficina">Oficina</option>
+        <option value="Cochera">Cochera</option>
+        <option value="Quinta">Quinta</option>
+        <option value="Terreno">Terreno</option>
+      </select>
+      <label for="Localidad"> Localidad</label>
+      <select name="Location" id="localidad">
+        <option value="0" disabled="disabled" selected="">Ingresá zona, localidad o calle</option>
+
+        <option value="26509" data-subtext="Localidad">Abasto</option>
+
+        <option value="26390" data-subtext="Localidad">Abril Club De Campo</option>
+
+        <option value="26354" data-subtext="Localidad">Adrogue</option>
+
+        <option value="24672" data-subtext="Zona">Agronomia</option>
+
+        <option value="24673" data-subtext="Zona">Almagro</option>
+
+        <option value="26353" data-subtext="Zona">Almirante Brown</option>
+
+        <option value="26392" data-subtext="Localidad">Altos de Hudson II</option>
+
+        <option value="52098" data-subtext="Localidad">Area 60</option>
+
+        <option value="26511" data-subtext="Localidad">Arturo Segui</option>
+
+        <option value="26376" data-subtext="Zona">Avellaneda</option>
+
+        <option value="26377" data-subtext="Localidad">Avellaneda</option>
+
+        <option value="26491" data-subtext="Localidad">B.San Jorge</option>
+
+        <option value="24676" data-subtext="Zona">Balvanera</option>
+
+        <option value="24677" data-subtext="Zona">Barracas</option>
+
+        <option value="210536" data-subtext="Localidad">Barrio Costa Esmeralda</option>
+
+        <option value="52099" data-subtext="Localidad">Barrio Las Golondrinas</option>
+
+        <option value="24678" data-subtext="Zona">Barrio Norte</option>
+
+        <option value="26583" data-subtext="Localidad">Barrio Pque.Calchaqui</option>
+
+        <option value="24682" data-subtext="Zona">Belgrano</option>
+
+        <option value="24683" data-subtext="Localidad">Belgrano Barrancas</option>
+
+        <option value="24684" data-subtext="Localidad">Belgrano C</option>
+
+        <option value="24686" data-subtext="Localidad">Belgrano R</option>
+
+        <option value="26388" data-subtext="Zona">Berazategui</option>
+
+        <option value="26402" data-subtext="Localidad">Berazategui</option>
+
+        <option value="51443" data-subtext="Localidad">Bernal</option>
+
+        <option value="26573" data-subtext="Localidad">Bernal Este</option>
+
+        <option value="26574" data-subtext="Localidad">Bernal Oeste</option>
+
+        <option value="24688" data-subtext="Zona">Boca</option>
+
+        <option value="24689" data-subtext="Zona">Boedo</option>
+
+        <option value="26488" data-subtext="Localidad">Bosques</option>
+
+        <option value="24729" data-subtext="Localidad">Botanico</option>
+
+        <option value="26357" data-subtext="Localidad">Burzaco</option>
+
+        <option value="26394" data-subtext="Localidad">C.C. El Pato</option>
+
+        <option value="24690" data-subtext="Zona">Caballito</option>
+
+        <option value="24692" data-subtext="Localidad">Caballito Sur</option>
+
+        <option value="82327" data-subtext="Localidad">Campos de Roca</option>
+
+        <option value="102535" data-subtext="Localidad">Campos de Roca II</option>
+
+        <option value="81923" data-subtext="Localidad">Canning</option>
+
+        <option value="26450" data-subtext="Localidad">Canning (E. Echeverria)</option>
+
+        <option value="26457" data-subtext="Localidad">Canning (Ezeiza)</option>
+
+        <option value="51400" data-subtext="Zona">Capital Federal</option>
+
+        <option value="24763" data-subtext="Localidad">Cardales Village</option>
+
+        <option value="26458" data-subtext="Localidad">Carlos Spegazzini</option>
+
+        <option value="24698" data-subtext="Localidad">Catalinas</option>
+
+        <option value="24697" data-subtext="Zona">Centro (Capital Federal)</option>
+
+        <option value="26405" data-subtext="Localidad">Centro Agricola El Pato</option>
+
+        <option value="24705" data-subtext="Zona">Chacarita</option>
+
+        <option value="27158" data-subtext="Zona">Chascomus</option>
+
+        <option value="27160" data-subtext="Localidad">Chascomus</option>
+
+        <option value="26514" data-subtext="Localidad">City Bell</option>
+
+        <option value="26363" data-subtext="Localidad">Claypole</option>
+
+        <option value="51439" data-subtext="Localidad">Club Miralagos</option>
+
+        <option value="24706" data-subtext="Zona">Coghlan</option>
+
+        <option value="24707" data-subtext="Zona">Colegiales</option>
+
+        <option value="24708" data-subtext="Zona">Congreso</option>
+
+        <option value="24709" data-subtext="Zona">Constitución</option>
+
+        <option value="27216" data-subtext="Zona">Coronel Brandsen</option>
+
+        <option value="27222" data-subtext="Localidad">Coronel Brandsen</option>
+
+        <option value="26616" data-subtext="Zona">Costa Azul</option>
+
+        <option value="26617" data-subtext="Zona">Costa Del Este</option>
+
+        <option value="27345" data-subtext="Localidad">Costa Esmeralda</option>
+
+        <option value="26500" data-subtext="Localidad">Countries/B.Cerrado (La Plata)</option>
+
+        <option value="51444" data-subtext="Localidad">Country Santa Rita</option>
+
+        <option value="26380" data-subtext="Localidad">Crucesita</option>
+
+        <option value="26381" data-subtext="Localidad">Dock Sud</option>
+
+        <option value="26378" data-subtext="Localidad">Dock Sur</option>
+
+        <option value="26575" data-subtext="Localidad">Don Bosco</option>
+
+        <option value="26585" data-subtext="Localidad">El Dorado</option>
+
+        <option value="30470" data-subtext="Localidad">El Hoyo</option>
+
+        <option value="26576" data-subtext="Localidad">Ezpeleta Este</option>
+
+        <option value="26577" data-subtext="Localidad">Ezpeleta Oeste</option>
+
+        <option value="51436" data-subtext="Localidad">Fincas de Hudson</option>
+
+        <option value="26397" data-subtext="Localidad">Fincas de Iraola II</option>
+
+        <option value="26487" data-subtext="Zona">Florencio Varela</option>
+
+        <option value="26490" data-subtext="Localidad">Florencio Varela</option>
+
+        <option value="24710" data-subtext="Zona">Flores</option>
+
+        <option value="26492" data-subtext="Localidad">G.Monteverde</option>
+
+        <option value="26382" data-subtext="Localidad">Gerli</option>
+
+        <option value="26541" data-subtext="Localidad">Gerli</option>
+
+        <option value="26493" data-subtext="Localidad">Gobernador Costa</option>
+
+        <option value="25938" data-subtext="Localidad">Gobernador Udaondo</option>
+
+        <option value="80457" data-subtext="Localidad">Greenville Polo &amp; Resort</option>
+
+        <option value="240581" data-subtext="Localidad">Greenville Polo &amp; Resort</option>
+
+        <option value="26406" data-subtext="Localidad">Guillermo E Hudson</option>
+
+        <option value="26504" data-subtext="Localidad">Haras Del Sur</option>
+
+        <option value="102537" data-subtext="Localidad">Haras del Sur II</option>
+
+        <option value="102538" data-subtext="Localidad">Haras del Sur III</option>
+
+        <option value="253662" data-subtext="Localidad">Horizontes al sur</option>
+
+        <option value="26410" data-subtext="Localidad">Hudson</option>
+
+        <option value="253653" data-subtext="Localidad">Hudson</option>
+
+        <option value="51437" data-subtext="Localidad">Hudson Chico</option>
+
+        <option value="26365" data-subtext="Localidad">L.San Javier</option>
+
+        <option value="102375" data-subtext="Localidad">La candida</option>
+
+        <option value="210561" data-subtext="Localidad">La Horqueta</option>
+
+        <option value="26499" data-subtext="Zona">La Plata</option>
+
+        <option value="26520" data-subtext="Localidad">La Plata</option>
+
+        <option value="55984" data-subtext="Localidad">La Providencia</option>
+
+        <option value="26540" data-subtext="Zona">Lanús</option>
+
+        <option value="26542" data-subtext="Localidad">Lanús</option>
+
+        <option value="26543" data-subtext="Localidad">Lanús Este</option>
+
+        <option value="26544" data-subtext="Localidad">Lanús Oeste</option>
+
+        <option value="24687" data-subtext="Localidad">Las Cañitas</option>
+
+        <option value="81367" data-subtext="Localidad">Las Golondrinas</option>
+
+        <option value="26619" data-subtext="Zona">Las Toninas</option>
+
+        <option value="24718" data-subtext="Zona">Liniers</option>
+
+        <option value="26530" data-subtext="Localidad">Lisandro Olmos Etcheverry</option>
+
+        <option value="26555" data-subtext="Localidad">Llavallol</option>
+
+        <option value="26553" data-subtext="Zona">Lomas De Zamora</option>
+
+        <option value="26558" data-subtext="Localidad">Lomas De Zamora</option>
+
+        <option value="253654" data-subtext="Localidad">Magallanes</option>
+
+        <option value="26622" data-subtext="Zona">Mar De Ajo</option>
+
+        <option value="27340" data-subtext="Localidad">Mar De Ajo</option>
+
+        <option value="26624" data-subtext="Zona">Mar Del Plata</option>
+
+        <option value="27559" data-subtext="Localidad">Mar Del Plata</option>
+
+        <option value="26717" data-subtext="Zona">Mar Del Tuyu</option>
+
+        <option value="25529" data-subtext="Localidad">Martinez</option>
+
+        <option value="24699" data-subtext="Localidad">Microcentro</option>
+
+        <option value="80508" data-subtext="Localidad">Mirador del lago</option>
+
+        <option value="24700" data-subtext="Zona">Monserrat</option>
+
+        <option value="26546" data-subtext="Localidad">Monte Chingolo</option>
+
+        <option value="25666" data-subtext="Localidad">Nordelta</option>
+
+        <option value="26722" data-subtext="Zona">Nueva Atlantis</option>
+
+        <option value="51442" data-subtext="Localidad">Nuevo Quilmes</option>
+
+        <option value="24721" data-subtext="Zona">Nuñez</option>
+
+        <option value="26536" data-subtext="Localidad">P.El Pato</option>
+
+        <option value="26682" data-subtext="Localidad">P.Mogotes</option>
+
+        <option value="24696" data-subtext="Localidad">P.Rivadavia</option>
+
+        <option value="24728" data-subtext="Zona">Palermo</option>
+
+        <option value="24730" data-subtext="Localidad">Palermo Chico</option>
+
+        <option value="24731" data-subtext="Localidad">Palermo Hollywood</option>
+
+        <option value="24734" data-subtext="Localidad">Palermo Viejo</option>
+
+        <option value="24726" data-subtext="Zona">Parque Chacabuco</option>
+
+        <option value="24727" data-subtext="Zona">Parque Patricios</option>
+
+        <option value="25127" data-subtext="Zona">Pilar</option>
+
+        <option value="26383" data-subtext="Localidad">Piñeyro</option>
+
+        <option value="26409" data-subtext="Localidad">Platanos</option>
+
+        <option value="26691" data-subtext="Localidad">Plaza Colon</option>
+
+        <option value="52105" data-subtext="Localidad">Posadas de los Lagos</option>
+
+        <option value="24701" data-subtext="Zona">Puerto Madero</option>
+
+        <option value="26569" data-subtext="Zona">Quilmes</option>
+
+        <option value="26578" data-subtext="Localidad">Quilmes</option>
+
+        <option value="26579" data-subtext="Localidad">Quilmes Oeste</option>
+
+        <option value="26373" data-subtext="Localidad">Rafael Calzada</option>
+
+        <option value="26403" data-subtext="Localidad">Ranelagh</option>
+
+        <option value="24681" data-subtext="Zona">Recoleta</option>
+
+        <option value="26548" data-subtext="Localidad">Remedios De Escalada</option>
+
+        <option value="24702" data-subtext="Zona">Retiro</option>
+
+        <option value="26587" data-subtext="Localidad">S.F.Solano</option>
+
+        <option value="24739" data-subtext="Zona">Saavedra</option>
+
+        <option value="26725" data-subtext="Zona">San Bernardo Del Tuyu</option>
+
+        <option value="24737" data-subtext="Zona">San Cristobal</option>
+
+        <option value="25436" data-subtext="Zona">San Fernando</option>
+
+        <option value="26374" data-subtext="Localidad">San Francisco Solano</option>
+
+        <option value="26590" data-subtext="Localidad">San Francisco Solano</option>
+
+        <option value="51455" data-subtext="Zona">San Miguel del Monte</option>
+
+        <option value="27949" data-subtext="Localidad">San Miguel Del Monte</option>
+
+        <option value="24703" data-subtext="Zona">San Nicolás</option>
+
+        <option value="39460" data-subtext="Zona">San Rafael</option>
+
+        <option value="24738" data-subtext="Zona">San Telmo</option>
+
+        <option value="254134" data-subtext="Localidad">Santa Clara al Sur</option>
+
+        <option value="26727" data-subtext="Zona">Santa Clara Del Mar</option>
+
+        <option value="26728" data-subtext="Zona">Santa Teresita</option>
+
+        <option value="26385" data-subtext="Localidad">Sarandi</option>
+
+        <option value="26413" data-subtext="Localidad">Sourigues</option>
+
+        <option value="26712" data-subtext="Localidad">Stella Maris</option>
+
+        <option value="26559" data-subtext="Localidad">Temperley</option>
+
+        <option value="26538" data-subtext="Localidad">Tolosa</option>
+
+        <option value="30552" data-subtext="Localidad">Trevelin</option>
+
+        <option value="26550" data-subtext="Localidad">Valentin Alsina</option>
+
+        <option value="24747" data-subtext="Zona">Villa del Parque</option>
+
+        <option value="24741" data-subtext="Zona">Villa Devoto</option>
+
+        <option value="26386" data-subtext="Localidad">Villa Dominico</option>
+
+        <option value="26539" data-subtext="Localidad">Villa Elisa</option>
+
+        <option value="51842" data-subtext="Localidad">Villa Elvira</option>
+
+        <option value="26730" data-subtext="Zona">Villa Gesell</option>
+
+        <option value="24743" data-subtext="Zona">Villa Gral.Mitre</option>
+
+        <option value="26591" data-subtext="Localidad">Villa La Florida</option>
+
+        <option value="24744" data-subtext="Zona">Villa Lugano</option>
+
+        <option value="24749" data-subtext="Zona">Villa Pueyrredon</option>
+
+        <option value="25430" data-subtext="Localidad">Villa Rosa</option>
+
+        <option value="24753" data-subtext="Zona">Villa Urquiza</option>
+
+        <option value="26497" data-subtext="Localidad">Villa Vatteone</option>
+
+        <option value="239367" data-subtext="Localidad">Villalobos</option>
+
+        <option value="26072" data-subtext="Localidad">Virrey Del Pino</option>
+
+        <option value="26387" data-subtext="Localidad">Wilde</option>
+
+        <input type="button" value="buscar">
+
+      </select>
+    </ul>
+  </form>
+  <br><br><br>
+
+
+  <section class="sectionUno">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/1582054933_032660_1582055118_noticia_normal_recorte1.jpg" class="casauno d-block w-100" alt="casauno" style="width:100%;">  
+          <img src="img/1582054933_032660_1582055118_noticia_normal_recorte1.jpg" class="casauno d-block w-100"
+            alt="casauno" style="width:100%;">
         </div>
         <div class="carousel-item">
           <img src="img/img-tinsa-17-06-956x800.jpg" class="casauno d-block w-100" alt="casados" style="width:100%;">
         </div>
         <div class="carousel-item">
-          <img src="img/Optima-Inmobiliaria-¿Son-los-Fondos-colectivos-para-Inmuebles-recomendados-1080x675.jpg" class="casauno d-block w-100" alt="casatres" style="width:100%;">
+          <img src="img/Optima-Inmobiliaria-¿Son-los-Fondos-colectivos-para-Inmuebles-recomendados-1080x675.jpg"
+            class="casauno d-block w-100" alt="casatres" style="width:100%;">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -475,44 +484,57 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div> 
-    </section>
-    
-<footer class="row footerUno">
-  <div class="row">
-    <div class="col-6  divUno ">Direcciones: 
-      <br>
-      9 de Julio 25, Bernal Centro
-      <br>
-     Santa Fe 2101, Caba</div>
+    </div>
+  </section>
 
-    <div class="col-6 divDos">Redes Sociales: 
-      <br>
-      Instagram: @Hernandezprop
-      <br>
-      Facebook: Hernandez Propiedades
-      <br>
-      Tik Tok: @Hernandezprop_
-      <br>
-      Pedi el numero de alguno de nuestros agentes a traves WhatsApp: 1130085972
-</div>
-  </div>       
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 
-</footer>
+    <symbol id="facebook" viewBox="0 0 16 16">
+      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+    </symbol>
+    <symbol id="instagram" viewBox="0 0 16 16">
+      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+    </symbol>
+    <symbol id="twitter" viewBox="0 0 16 16">
+      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+    </symbol>
+  </svg>
 
-        <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>  
+  <div class="estiloFooter">
+    <footer class="d-flex justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0">© 2022 Company, Hernandez Propiedades</span>
+      </div>
+
+      <ul class="nav justify-content-center">
+        <li class="ms-3"><a class="text-muted" href="#"><svg width="24" height="24">
+              <use xlink:href="#twitter"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/colohernandez_/"><svg width="24" height="24">
+              <use xlink:href="#instagram"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg width="24" height="24">
+              <use xlink:href="#facebook"></use>
+            </svg></a></li>
+      </ul>
+    </footer>
+  </div>
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
